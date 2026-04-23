@@ -1,371 +1,421 @@
 <html>
-    <head>
-        <style>
-            body{
-                width:1000px;
-                margin:50px;
-                color: #242424;
-                -webkit-print-color-adjust: exact;
-                print-color-adjust: exact;
-            }
-            .title{
-                color:#013D74;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            }
-            p{
-                font-size: 15px;
-            }
-            .container{
-                display: flex;
-                justify-content: space-between;
-                margin-top: 10px;
-                margin-bottom: 20px;
-            }
-            .left{
-                display: flex;
-                flex-direction: column;
-                flex:0.7;
-            }
-            .right{
-                display: flex;
-                flex-direction: column;
-                flex: 0.22;
-            }
-            .header{
-                display: flex;
-                align-items: center;
-                padding-bottom: 6px;
-                border-bottom: 2px solid lightgray;
-                margin-bottom: 10px;
-                margin-top: 20px;
-            }
-            .icon{
-                height: 24px;
-                width: 28px;
-                margin-right: 10px;
-            }
-            .headerText{
-                font-size: 15px;
-                font-weight: bold;
-                color: #013D74;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            }
-            .mainBody{
-                display: flex;
-                justify-content: space-between;
-                margin-top: 6px;
-                margin-bottom: 6px;
-            }
-            .bodyLeft{
-                flex:0.08
-            }
-            .bodyRight{
-                flex:0.88
-            }
-            .bodyLeft{
-                font-size: 13px;
-            }
-            .subTitle{
-                font-size: 15px;
-                font-weight: bold;
-                margin-bottom: 8px;
-            }
-            .subText{
-                font-size: 15px;
-                font-style: italic;
-                font-weight: bold;
-                margin-bottom: 12px;
-            }
-            ul{
 
-            }
-            li{
-                font-size: 15px;
-                margin-bottom: 9px;
-            }
-            a{
-                color: rgb(1, 95, 133);
-            }
-            .rightText{
-                margin-bottom: 20px;
-            }
-            .row{
-                display: flex;
-                align-items: center;
-                margin-bottom: 12px;
-            }
-            .skillRow{
-                display: flex;
-                flex-direction: row;
-                width: 260px;
-                margin-top: 18px;
-                margin-bottom: -5px;
-            }
-            .subTitleSkill{
-                font-size: 15px;
-            }
-            .bar{
-                background-color: #8cc0f0;
-                height: 4px;
-                color: white;
-            }
-            .barGreen{
-                background-color: #8cf0a3;
-                height: 4px;
-                color: white;
-            }
-            .barGray{
-                background-color: #b1bcb4;
-                height: 4px;
-                color: white;
-            }
-            .textSkill{
-                margin-left: 10px;
-                color: green;
-                font-weight: normal;
-                font-size: 14px;
-                margin-bottom: 10px;
-            }
+<head>
+    <style>
+        body {
+            width: 1000px;
+            margin: 50px;
+            color: #242424;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
 
-        </style>
-    </head>
-    <body>
-        <h1 class="title">
-            Shambhavi GD
-        </h1>
-        <p style="font-size: 16px; width: 650px">
-            Detail-oriented QA Engineer with 4+ years of experience in functional, regression, and API testing across Agile environments. Proven ability to design and execute test strategies, identify defects, and improve software quality. Hands-on experience in automation tools and strong expertise in SDLC and QA lifecycle processes. 
-            Adept at collaborating with cross-functional teams to deliver high-quality products.
-        </p>
+        .title {
+            color: #013D74;
+            font-size: 18px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        p {
+            font-size: 15px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            flex: 0.7;
+        }
+
+        .right {
+            display: flex;
+            flex-direction: column;
+            flex: 0.22;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            padding-bottom: 6px;
+            border-bottom: 2px solid lightgray;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+
+        .icon {
+            height: 24px;
+            width: 28px;
+            margin-right: 10px;
+        }
+
+        .headerText {
+            font-size: 15px;
+            font-weight: bold;
+            color: #013D74;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .mainBody {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 6px;
+            margin-bottom: 6px;
+        }
+
+        .bodyLeft {
+            flex: 0.08
+        }
+
+        .bodyRight {
+            flex: 0.88
+        }
+
+        .bodyLeft {
+            font-size: 13px;
+        }
+
+        .subTitle {
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .subText {
+            font-size: 15px;
+            font-style: italic;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+        ul {}
+
+        li {
+            font-size: 15px;
+            margin-bottom: 9px;
+        }
+
+        a {
+            color: rgb(1, 95, 133);
+        }
+
+        .rightText {
+            margin-bottom: 20px;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .skillRow {
+            display: flex;
+            flex-direction: row;
+            width: 260px;
+            margin-top: 18px;
+            margin-bottom: -5px;
+        }
+
+        .subTitleSkill {
+            font-size: 15px;
+        }
+
+        .bar {
+            background-color: #8cc0f0;
+            height: 4px;
+            color: white;
+        }
+
+        .barGreen {
+            background-color: #8cf0a3;
+            height: 4px;
+            color: white;
+        }
+
+        .barGray {
+            background-color: #b1bcb4;
+            height: 4px;
+            color: white;
+        }
+
+        .textSkill {
+            margin-left: 10px;
+            color: green;
+            font-weight: normal;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="title">
+        Shambhavi GD
+    </h1>
+    <p style="font-size: 10px; width: 650px">
+
+    <h1 class="title">
+        QA Engineer | API & ETL Testing | Banking Domain
+    </h1>
+    <div class="subtitle">Professional Summary</div>
+    <div style="font-size: 16px; width: 650px">
 
 
-        <div class="container">
-            <div class="left">
 
-                <div class="header">
-                    <img class="icon" src="./zimages/work.png" alt=""/>
-                    <div class="headerText">
-                        Work History <span style="color: gray;">4 years of experience</span>
-                    </div>
+        QA Engineer with 4+ years of experience in API Testing, ETL/Data Validation, and Functional Testing within the
+        Banking (BFSI) domain. Strong expertise in validating data integrity, backend systems, and APIs. Experienced in
+        Agile environments with hands-on skills in SQL, Postman, and defect lifecycle management. Proven ability to
+        ensure high-quality
+        releases through effective test strategies and stakeholder collaboration.
+    </div>
+
+
+    <div class="container">
+        <div class="left">
+
+            <div class="header">
+                <img class="icon" src="./zimages/work.png" alt="" />
+                <div class="headerText">
+                    Work History <span style="color: gray;">4 years of experience</span>
                 </div>
+            </div>
 
-                <div class="mainBody">
-                    <div class="bodyLeft">
-                        2021-09 to <div>Current</div>
-                    </div>
-                    <div class="bodyRight">
-                        <div class="subTitle">QA Engineer</div>
-                        <div class="subText">
-                            Synechron Technologies Pvt Ltd
-                        </div>
-                        Project: Morgan Stanley 3DWealth Management
-                        <ul>
-                            <li>
-                                Provides a platform to create account for new client and to manage
-their profiles based on Client’s requirements.
-                            </li>
-                            <li>
-                                Validated complex financial workflows and client onboarding processes.
-                            </li>
-                            <li>
-                                Ensured high-quality releases through thorough regression cycles.
-                            </li>
-                            <li>
-                                Improved defect detection through structured test case design and API validation.
-                            </li>
-                        </ul>
-                        Responsibilities
-                        <ul>
-                            <li>
-                                Involved in pushing, pulling and merging the code from GIT.
-                            </li>
-                            <li>
-                                Offering support in the manual testing process (Functional testing
-and executing testcases, reporting bugs, regression testing).
-                            </li>
-                            <li>
-                                Managed defect lifecycle using JIRA, including story creation, bug tracking, and sprint execution.
-                            </li>
-                            <li>
-                                Involved in Test case Development and Execution.
-                            </li>
-                            <li>
-                                Mentored and trained new team members on QA processes and tools.
-                            </li>
-                        </ul>
-                        AI and Automation Experience
-                        <ul>
-                            <li>
-                                Used GitHub Copilot (Visual Studio) to assist in writing test scripts and improving development productivity.
-                            </li>
-                            <li>
-                                Worked with MCP server integrations to automate defect creation and sub-task generation in JIRA.
-                            </li>
-                            <li>
-                                Utilized TestGen (AI-based tool) to generate and enhance test cases, improving test coverage and reducing manual effort.
-                            </li>
-                            <li>
-                                Integrated AI tools into the QA workflow to optimize testing efficiency and defect tracking.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="header">
-                    <img class="icon" src="./zimages/edu.png" alt=""/>
-                    <div class="headerText">
-                        Education
-                    </div>
-                </div>
-                <div class="mainBody">
-                    <div class="bodyLeft">
-                        2017 to 2021
-                    </div>
-                    <div class="bodyRight">
-                        <div class="subTitle">Bachelor of Technology: Computer Science</div>
-                        <div class="subText">
-                            Government Engineering College, Kushalnagar
-                        </div>
-                    </div>
-                </div>
-
-                <div class="header">
-                    <img class="icon" style="height:30px" src="./zimages/pin.png" alt=""/>
-                    <div class="headerText">
-                        Testing Proficiency
-                    </div>
+            <div class="mainBody">
+                <div class="bodyLeft">
+                    2021-09 to <div>Current</div>
                 </div>
                 <div class="bodyRight">
-                    Software Testing
+                    <div class="subTitle">QA Engineer</div>
+                    <div class="subText">
+                        Synechron Technologies Pvt Ltd
+                    </div>
+                    Project: Morgan Stanley 3DWealth Management
                     <ul>
                         <li>
-                            Worked in Agile Methodology.
+                            Provides a platform to create account for new client and to manage
+                            their profiles based on Client’s requirements.
                         </li>
                         <li>
-                            Experience on Functional testing and Regression testing.
+                            Validated complex financial workflows and client onboarding processes.
                         </li>
                         <li>
-                            Expertise in understanding and analyzing Functional requirements.
+                            Ensured high-quality releases through thorough regression cycles.
                         </li>
                         <li>
-                            Delivered sprint demos to stakeholders, showcasing completed features and test outcomes.
+                            Improved defect detection through structured test case design and API validation.
                         </li>
                     </ul>
-
-                    API Testing
+                    Responsibilities
                     <ul>
                         <li>
-                             Contributed to API test automation using Postman collections.
+                            Performed Functional, Regression, Smoke, and Sanity Testing to ensure application stability
+                            and release readiness.
                         </li>
                         <li>
-                            Experienced in working on System Utility Application.
+                            Designed and executed test cases and test scenarios based on business and functional
+                            requirements.
                         </li>
                         <li>
-                            Experienced in working on Postman tool.
+                            Conducted API testing using Postman, validating request/response data, JSON structure, and
+                            status codes, along with verifying integration dashboard
                         </li>
                         <li>
-                            Experienced in writing SQL query in RapidSQL and DBArtisan tools.
+                            Performed performance and load testing using JMeter to validate system behavior under
+                            varying conditions.
                         </li>
                         <li>
-                            Managed defect lifecycle using JIRA, including, bug tracking,sprint execution and Sub-task.
+                            Delivered sprint demos to stakeholders, presenting tested features and quality outcomes.
                         </li>
                         <li>
-                            Having knowledge in ICEDQ by comparing reports against database
+                            Mentored and trained new team members on QA processes, tools, and best practices.
+                        </li>
+                        <li>
+                            Actively participated in Agile ceremonies (sprint planning, stand-ups, retrospectives).
+                        </li>
+                    </ul>
+                    AI and Automation Experience
+                    <ul>
+                        <li>
+                            Used GitHub Copilot (Visual Studio) to assist in writing test scripts and improving
+                            development productivity.
+                        </li>
+                        <li>
+                            Worked with MCP server integrations to automate defect creation and sub-task generation in
+                            JIRA.
+                        </li>
+                        <li>
+                            Utilized TestGen (AI-based tool) to generate and enhance test cases, improving test coverage
+                            and reducing manual effort.
+                        </li>
+                        <li>
+                            Integrated AI tools into the QA workflow to optimize testing efficiency and defect tracking.
                         </li>
                     </ul>
                 </div>
             </div>
 
-            <div class="right">
-                <div class="header">
-                    <img class="icon" src="./zimages/contact.png" alt=""/>
-                    <div class="headerText">
-                        Contact
-                    </div>
-                </div>
-
-                <div class="subTitle">Address</div>
-                <div class="rightText">Bengaluru, Karnataka, India</div>
-
-                <div class="subTitle">Phone</div>
-                <div class="rightText">+918197154198</div>
-
-                <div class="subTitle">Email</div>
-                <div class="rightText">shambhavigd2@gmail.com</div>
-
-                <div class="subTitle">Social</div>
-                
-                    <a href="https://www.linkedin.com/in/shambhavigd/">
-                        <div class="row">
-                            <img src="./zimages/linked.png" class="icon" alt=""/>
-                            linkedin.com/in/shambhavigd
-                        </div>
-                    </a>
-                    <a href="https://github.com/sha-gd">
-                        <div class="row">
-                            <img src="./zimages/git.png" class="icon" style="width: 22px;" alt=""/>
-                            github.com/sha-gd
-                        </div>
-                    </a>
-
-
-                <div class="header" style="margin-top:50px">
-                    <img class="icon" style="height: 32px;" src="./zimages/bulb.png" alt=""/>
-                    <div class="headerText">
-                        Skills
-                    </div>
-                </div>
-
-                <div class="skillRow">
-                    <div class="subTitleSkill">Jmeter</div>
-                    <div class="textSkill" style="color: lightseagreen;">( Expert )</div>
-                </div>
-                <div class="barGreen" style="width:99%"></div>
-
-                <div class="skillRow">
-                    <div class="subTitleSkill">MySql</div>
-                    <div class="textSkill" style="color: lightseagreen;">( Expert )</div>
-                </div>
-                
-                <div class="barGreen" style="width:99%"></div>
-                
-
-                <div class="skillRow">
-                    <div class="subTitleSkill">ICEDQ</div>
-                    <div class="textSkill">( Excellent )</div>
-                </div>
-                <div class="bar" style="width:80%"></div>
-                
-
-                <div class="skillRow">
-                    <div class="subTitleSkill">Rest API</div>
-                    <div class="textSkill">( Excellent )</div>
-                </div>
-                <div class="bar" style="width:80%"></div>
-
-                <div class="skillRow">
-                    <div class="subTitleSkill">SOAP</div>
-                    <div class="textSkill">( Excellent )</div>
-                </div>
-                <div class="bar" style="width:80%"></div>
-
-                <div class="tools" style="margin-top:40px">
-                    <div class="header">
-                        <div class="headerText" style="font-size: 15px;">
-                            Tools
-                        </div>
-                    </div>
-                    <p style="font-size: 15px;">Jmeter, ICEDQ, Postman</p>
-
-                    <div class="header">
-                        <div class="headerText" style="font-size: 15px;">
-                            Frameworks
-                        </div>
-                    </div>
-                    <p style="font-size: 15px;">XTA</p>
+            <div class="header">
+                <img class="icon" src="./zimages/edu.png" alt="" />
+                <div class="headerText">
+                    Education
                 </div>
             </div>
-            
+            <div class="mainBody">
+                <div class="bodyLeft">
+                    2017 to 2021
+                </div>
+                <div class="bodyRight">
+                    <div class="subTitle">Bachelor of Technology: Computer Science</div>
+                    <div class="subText">
+                        Government Engineering College, Kushalnagar
+                    </div>
+                </div>
+            </div>
+
+            <div class="header">
+                <img class="icon" style="height:30px" src="./zimages/pin.png" alt="" />
+                <div class="headerText">
+                    Testing Proficiency
+                </div>
+            </div>
+            <div class="bodyRight">
+                Software Testing
+                <ul>
+                    <li>
+                        Strong experience in Software Testing within Agile environments, following Scrum methodology.
+                    </li>
+                    <li>
+                        Proficient in Functional Testing and Regression Testing to ensure application stability and
+                        quality.
+                    </li>
+                    <li>
+                        Skilled in analyzing and understanding functional requirements to design effective test
+                        scenarios and test cases.
+                    </li>
+                    <li>
+                        Hands-on experience in API Testing using Postman, including validation of request/response,
+                        JSON, XML and status codes.
+                    </li>
+                    <li>
+                        Contributed to API test automation using Postman collections for improved efficiency and
+                        repeatability.
+                    </li>
+                    <li>
+                        Expertise in ETL/Data Validation Testing, ensuring accuracy between source systems, reports, and
+                        databases.
+                    </li>
+                    <li>
+                        Experience working on System Utility Applications in the Banking domain.
+                    </li>
+                    <li>
+                        Proficient in defect lifecycle management using Jira, including bug tracking, sprint execution,
+                        and sub-task management.
+                    </li>
+                    <li>
+                        Actively involved in Agile ceremonies and delivered sprint demos to stakeholders showcasing test
+                        outcomes.
+                    </li>
+                </ul>
+            </div>
         </div>
-    </body>
+
+        <div class="right">
+            <div class="header">
+                <img class="icon" src="./zimages/contact.png" alt="" />
+                <div class="headerText">
+                    Contact
+                </div>
+            </div>
+
+            <div class="subTitle">Address</div>
+            <div class="rightText">Bengaluru, Karnataka, India</div>
+
+            <div class="subTitle">Phone</div>
+            <div class="rightText">+918197154198</div>
+
+            <div class="subTitle">Email</div>
+            <div class="rightText">shambhavigd2@gmail.com</div>
+
+            <div class="subTitle">Social</div>
+
+            <a href="https://www.linkedin.com/in/shambhavigd/">
+                <div class="row">
+                    <img src="./zimages/linked.png" class="icon" alt="" />
+                    linkedin.com/in/shambhavigd
+                </div>
+            </a>
+            <a href="https://github.com/sha-gd">
+                <div class="row">
+                    <img src="./zimages/git.png" class="icon" style="width: 22px;" alt="" />
+                    github.com/sha-gd
+                </div>
+            </a>
+
+
+            <div class="header" style="margin-top:50px">
+                <img class="icon" style="height: 32px;" src="./zimages/bulb.png" alt="" />
+                <div class="headerText">
+                    Skills
+                </div>
+            </div>
+
+            <div class="skillRow">
+                <div class="subTitleSkill">Jmeter</div>
+                <div class="textSkill" style="color: lightseagreen;">( Expert )</div>
+            </div>
+            <div class="barGreen" style="width:99%"></div>
+
+            <div class="skillRow">
+                <div class="subTitleSkill">MySql</div>
+                <div class="textSkill" style="color: lightseagreen;">( Expert )</div>
+            </div>
+
+            <div class="barGreen" style="width:99%"></div>
+
+
+            <div class="skillRow">
+                <div class="subTitleSkill">ICEDQ</div>
+                <div class="textSkill">( Excellent )</div>
+            </div>
+            <div class="bar" style="width:80%"></div>
+
+
+            <div class="skillRow">
+                <div class="subTitleSkill">Rest API</div>
+                <div class="textSkill">( Excellent )</div>
+            </div>
+            <div class="bar" style="width:80%"></div>
+
+            <div class="skillRow">
+                <div class="subTitleSkill">SOAP</div>
+                <div class="textSkill">( Excellent )</div>
+            </div>
+            <div class="bar" style="width:80%"></div>
+
+            <div class="tools" style="margin-top:40px">
+                <div class="header">
+                    <div class="headerText" style="font-size: 15px;">
+                        Tools
+                    </div>
+                </div>
+                <p style="font-size: 15px;">Jmeter, ICEDQ, Postman</p>
+
+                <div class="header">
+                    <div class="headerText" style="font-size: 15px;">
+                        Frameworks
+                    </div>
+                </div>
+                <p style="font-size: 15px;">XTA</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
 </html>
